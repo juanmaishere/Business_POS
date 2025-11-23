@@ -2,7 +2,7 @@ services:
   # ================================
   # FRONTEND - STATIC SITE (VITE)
   # ================================
-  - type: static
+  - type: static_site
     name: business-pos-frontend
     rootDir: frontend
     buildCommand: npm install && npm run build
